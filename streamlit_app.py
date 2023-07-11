@@ -56,7 +56,7 @@ def load_model():
     plt = platform.system()
 
     if plt == 'Linux' or plt == 'Darwin': pathlib.WindowsPath = pathlib.PosixPath
-    inf_model = load_learner('perumixed3.pkl', cpu=True)
+    inf_model = load_learner('Dhole ID.pkl', cpu=True)
 
     return inf_model
 
