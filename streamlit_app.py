@@ -104,7 +104,7 @@ IMAGE_TYPES = ["png", "jpg"]
 
 EXTERNAL_DEPENDENCIES = {
     "Dhole ID.pkl": {
-        "url": "https://drive.google.com/file/d/1RPUnGf7qDD2Mkfr41PVxxOjUpHtVC3a2/view?usp=sharing",
+        "url": "https://www.dropbox.com/scl/fi/pbz378g2kzff8wki6v29e/Dhole-ID.pkl?rlkey=mbt95n2ycl9mlkdmsf2a3mf7c&dl=1",
         "size": 179234429
     }
 }
