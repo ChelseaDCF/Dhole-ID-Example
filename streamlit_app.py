@@ -56,7 +56,7 @@ def load_model():
     plt = platform.system()
 
     if plt == 'Linux' or plt == 'Darwin': pathlib.WindowsPath = pathlib.PosixPath
-    inf_model = load_learner('Dhole ID.pkl', cpu=True)
+    inf_model = load_learner('DholeID2.pkl', cpu=True)
 
     return inf_model
 
@@ -103,9 +103,9 @@ def download_file(file_path):
 IMAGE_TYPES = ["png", "jpg"]
 
 EXTERNAL_DEPENDENCIES = {
-    "Dhole ID.pkl": {
-        "url": "https://www.dropbox.com/scl/fi/pbz378g2kzff8wki6v29e/Dhole-ID.pkl?rlkey=mbt95n2ycl9mlkdmsf2a3mf7c&dl=1",
-        "size": 179234429
+    "DholeID2.pkl": {
+        "url": "https://www.dropbox.com/scl/fi/0te084suc63rxi6gq2hyk/DholeID2.pkl?rlkey=4gc2pq6vythitt7389z0ldoom&dl=1",
+        "size": 179238845
     }
 }
 
